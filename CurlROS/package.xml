@@ -1,0 +1,19 @@
+<package>
+  <!-- Package Metadata -->
+  <name>curlros</name>
+  <maintainer email="nightstalker@ROS.com">Nightstalker</maintainer>
+  <description>
+    curl + ROS
+  </description>
+  <version>0.0.0</version>
+  <license>BSD</license>
+
+  <!-- Required by Catkin -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Package Dependencies -->
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>libcurl</build_depend>
+  <run_depend>libcurl</run_depend>
+</package>

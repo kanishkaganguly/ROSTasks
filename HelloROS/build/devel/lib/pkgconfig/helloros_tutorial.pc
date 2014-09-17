@@ -1,0 +1,8 @@
+prefix=/home/kanishka/Desktop/ROS/HelloROS/build/devel
+
+Name: helloros_tutorial
+Description: Description of helloros_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kanishka/Desktop/ROS/HelloROS/build/devel/lib 
+Requires: 

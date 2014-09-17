@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "curlros")
+set(curlros_MAINTAINER "Nightstalker <nightstalker@ROS.com>")
+set(curlros_DEPRECATED "")
+set(curlros_VERSION "0.0.0")
+set(curlros_BUILD_DEPENDS "roscpp" "libcurl")
+set(curlros_RUN_DEPENDS "roscpp" "libcurl")
+set(curlros_BUILDTOOL_DEPENDS "catkin")

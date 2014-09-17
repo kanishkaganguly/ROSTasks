@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: helloros_tutorial
+Description: Description of helloros_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

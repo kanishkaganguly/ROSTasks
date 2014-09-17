@@ -1,0 +1,17 @@
+<package>
+  <!-- Package Metadata -->
+  <name>helloros_tutorial</name>
+  <maintainer email="kanishkaganguly2002@gmail.com">Nightstalker</maintainer>
+  <description>
+    Hello ROS.
+  </description>
+  <version>0.0.0</version>
+  <license>BSD</license>
+
+  <!-- Required by Catkin -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Package Dependencies -->
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+</package>
