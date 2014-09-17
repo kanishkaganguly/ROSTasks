@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rostweet2")
+set(rostweet2_MAINTAINER "Nightstalker <nightstalker@ROS.com>")
+set(rostweet2_DEPRECATED "")
+set(rostweet2_VERSION "0.0.0")
+set(rostweet2_BUILD_DEPENDS "roscpp")
+set(rostweet2_RUN_DEPENDS "roscpp")
+set(rostweet2_BUILDTOOL_DEPENDS "catkin")
