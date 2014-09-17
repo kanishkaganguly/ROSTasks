@@ -13,6 +13,8 @@ curl/curl.h
 -
 ros/ros.h
 -
+string.h
+-
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h
