@@ -14,7 +14,9 @@ find_package(roscpp REQUIRED)
 
 # Add the headers from roscpp
 include_directories(${roscpp_INCLUDE_DIRS})
+
 # Define an execuable target called helloros_node 
 add_executable(helloros_node helloros_node.cpp)
+
 # Link the helloros_node target against the libraries used by roscpp
 target_link_libraries(helloros_node ${roscpp_LIBRARIES})
