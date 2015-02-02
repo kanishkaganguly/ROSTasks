@@ -16,7 +16,7 @@ find_package(roscpp REQUIRED)
 include_directories(${roscpp_INCLUDE_DIRS})
 include_directories(${ROOT_SOURCE_DIR}/include)
 include_directories(${ROOT_SOURCE_DIR}/lib)
-include_directories(${ROOT_SOURCE_DIR}/libtwitcurl)
+include_directories(${ROOT_SOURCE_DIR}/build/devel/rostweet2/)
 
 # Define an execuable target called twitter_node 
 add_executable(twitter_node twitter_node.cpp)

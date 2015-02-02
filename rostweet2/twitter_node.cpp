@@ -149,7 +149,8 @@ int main( int argc, char* argv[] )
 	if( twitterObj.statusUpdate( tmpStr ) )
 	{
 		twitterObj.getLastWebResponse( replyMsg );
-		printf( "\ntwitterClient:: twitCurl::statusUpdate web response:\n%s\n", replyMsg.c_str() );
+		printf( "\nStatus Message Successfully Updated");
+		exit(1);
 	}
 	else
 	{
